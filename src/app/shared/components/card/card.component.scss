@@ -1,0 +1,21 @@
+.body{
+    height: 100px;
+    overflow: auto;
+}
+
+.header{
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #96f052;
+    border-radius: 10px;
+}
